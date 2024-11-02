@@ -14,6 +14,6 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MIDTERMEXAMEJEMPLO }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_IST105MIDTERMEXAM_BRUNOSCA }}
           channelId: live
-          projectId: midtermexamejemplo
+          projectId: ist105midtermexam-brunosca

@@ -1,10 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDIm9qYhlN3I_nKkTPpLchURZy5GO1rJZM",
-  authDomain: "midtermexamejemplo.firebaseapp.com",
-  projectId: "midtermexamejemplo",
-  storageBucket: "midtermexamejemplo.appspot.com",
-  messagingSenderId: "541708823540",
-  appId: "1:541708823540:web:fdc6510b1cd98cf645a7a1"
+  apiKey: "AIzaSyArKrp4gUTUbnjJacF004X1CPfZxn18nek",
+  authDomain: "ist105midtermexam-brunosca.firebaseapp.com",
+  projectId: "ist105midtermexam-brunosca",
+  storageBucket: "ist105midtermexam-brunosca.firebasestorage.app",
+  messagingSenderId: "219757502195",
+  appId: "1:219757502195:web:a00fa6828e5df169bce186"
 };
 
-const app = firebase.initializeApp(firebaseConfig);
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
